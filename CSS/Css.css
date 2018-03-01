@@ -1,0 +1,44 @@
+.headerFont{
+    font-size: 2vw;
+    height: 10%;
+    padding-top: 1%;
+}
+
+.controls{
+    padding-top: 1%;
+    height: 5%;
+    padding-bottom: 1%;
+}
+
+.background{
+    background-color: #999999;
+}
+
+.newUser{
+    padding: 2%;
+    background-color: #888888;
+}
+
+.table-bgcolor{
+    background-color: white;
+}
+
+.table-padding{
+    padding: 2%;
+}
+
+.help-block{
+    color: #a94442;
+}
+
+.invisible-button{
+    display: none;
+}
+
+.visible-button{
+    display: inline;
+}
+
+.btn-padding{
+    margin: 2%;
+}
