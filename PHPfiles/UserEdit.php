@@ -153,10 +153,10 @@ if(isset($_SESSION["row"]) && $_SESSION["row"] != null){
                         error.insertAfter( element );
                     }
                 },
-                highlight: function ( element, errorClass, validClass ) {
+                highlight: function ( element) {
                     $( element ).parents( ".form-group" ).addClass( "has-error" ).removeClass( "has-success" );
                 },
-                unhighlight: function (element, errorClass, validClass) {
+                unhighlight: function (element) {
                     $( element ).parents( ".form-group" ).addClass( "has-success" ).removeClass( "has-error" );
                 }
 
@@ -228,10 +228,10 @@ if(isset($_SESSION["row"]) && $_SESSION["row"] != null){
                         error.insertAfter( element );
                     }
                 },
-                highlight: function ( element, errorClass, validClass ) {
+                highlight: function ( element) {
                     $( element ).parents( ".form-group" ).addClass( "has-error" ).removeClass( "has-success" );
                 },
-                unhighlight: function (element, errorClass, validClass) {
+                unhighlight: function (element) {
                     $( element ).parents( ".form-group" ).addClass( "has-success" ).removeClass( "has-error" );
                 }
 
