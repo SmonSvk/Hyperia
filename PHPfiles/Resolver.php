@@ -53,7 +53,7 @@ elseif($_POST["tag"] == "Edit"){
     }
     else if($_POST["button"] == "Upraviť"){
         $row = $functions->getID($_POST["id"]);
-        if($row === null)
+        if($row == null)
             $_SESSION["row"] = null;
         else
             $_SESSION["row"] = mysqli_fetch_row($row);

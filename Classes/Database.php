@@ -17,7 +17,7 @@ class Database
     public static function getInstance($ip, $user, $pass, $dbname, $port)
     {
         static $instance = null;
-        if($instance === null){
+        if($instance == null){
             $instance = new Database($ip, $user, $pass, $dbname, $port);
         }
 
