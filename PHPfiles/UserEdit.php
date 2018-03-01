@@ -107,7 +107,7 @@ if(isset($_SESSION["row"]) && $_SESSION["row"] != null){
                         equalTo: "#pass"
                     },
                     age: {
-                        range: [0, 130],
+                        range: [1, 130],
                         required: true
                     },
                     city: {
@@ -135,7 +135,7 @@ if(isset($_SESSION["row"]) && $_SESSION["row"] != null){
                     },
                     age:{
                         required: "Zadajte svoj vek",
-                        range: "Vek musí byť v rozmedzí 0 až 130 rokov"
+                        range: "Vek musí byť v rozmedzí 1 až 130 rokov"
                     },
                     city:{
                         required: "Zadajte mesto v ktorom bývate",
@@ -182,7 +182,7 @@ if(isset($_SESSION["row"]) && $_SESSION["row"] != null){
                     equalTo: "#pass"
                 },
                 age: {
-                    range: [0, 130],
+                    range: [1, 130],
                     required: true
                 },
                 city: {
@@ -210,7 +210,7 @@ if(isset($_SESSION["row"]) && $_SESSION["row"] != null){
                     },
                     age:{
                         required: "Zadajte svoj vek",
-                        range: "Vek musí byť v rozmedzí 0 až 130 rokov"
+                        range: "Vek musí byť v rozmedzí 1 až 130 rokov"
                     },
                     city:{
                         required: "Zadajte mesto v ktorom bývate",
